@@ -1,0 +1,23 @@
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+#imag{
+    margin-left: 19px;
+}
+main{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+}
+
+#colege{
+    border: none;
+    background-color: #DFDFDF;
+    height: 50px;
+    border-radius: 8px;
+    width: 310px;
+}
