@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
 
 * {
     margin: 0;
@@ -7,39 +6,78 @@
     box-sizing: border-box;
 }
 
-
-
-#home{
+#home {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    
-
-
-    
+    margin-top: -150px;
 }
-#imag{
+
+#imag {
     margin-left: 19px;
 }
-main{
+
+main {
     display: flex;
-flex-direction: column;
-align-items: center;
-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
 }
 
-#colege{
+#colege, #colege1, #colege2 {
     border: none;
     background-color: #DFDFDF;
     height: 50px;
     border-radius: 8px;
     width: 310px;
     padding: 15px;
-    
 }
 
-#submit{
+#submit, #submit1, #submit2 {
+    border: none;
+    background-color: #212529;
+    color: #FFFFFF;
+    height: 50px;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#nomedoaluno, #Idade, #aluno {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+
+
+    margin-left: 600px;
+}
+
+
+#alunoList {
+    list-style: none;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #f9f9f9;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#alunoList li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#listAll{
     border: none;
     background-color: #212529;
     color: #FFFFFF;
@@ -49,34 +87,8 @@ gap: 30px;
     padding: 10px;
     border: 1px solid #ccc;
 
-
 }
 
-a{
-    text-decoration: none;
-    color: #000000;
-}
-
-#nomedoaluno{
-    display: block;
-    margin-bottom: 5px;
-    margin-left: -185px;
+p{
     font-family: "Roboto", sans-serif;
 }
-
-#Idade{
-    display: block;
-    margin-bottom: 5px;
-    margin-left: -250px;
-    font-family: "Roboto", sans-serif;
-}
-
-#aluno{
-    display: block;
-    margin-bottom: 5px;
-    margin-left: -250px;
-  font-family: "Roboto", sans-serif;
-
-}
-
-

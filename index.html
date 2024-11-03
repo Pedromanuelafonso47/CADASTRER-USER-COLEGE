@@ -3,31 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./tyle.css">
+    <title>Cadastro de Alunos</title>
+    <link rel="stylesheet" href="./tyle.css"> <!-- Corrected CSS link -->
 </head>
 <body>
-<main class="cot">
-    <img id="imag" src="./Logo siga (branco).png" alt="">
-    <form id="home">
-         <label id="nomedoaluno">Nome do Aluno</label>
-        <input id="colege" type="text" placeholder="Digite seu nome">
+    <main class="cot">
+  <img id="imag" src="./Logo siga (branco).png" alt="Logo">
+  <button id="submit1">Apagar</button>
+  <button id="submit2">Editar</button>
+  <button id="listAll" >Listar Alunos</button> <!-- New button for listing -->
+  <div class="container">
+    <p>Nome: <span id="displayName"></p>
+      <p>Sala: <span id="displaySala"></p>
+        <p>Idade: <span id="displayIdade"></p>
+        </div>
+        
+          <form id="home">
+            <label id="nomedoaluno">Nome do Aluno</label>
+      <input id="colege" type="text" placeholder="Digite seu nome">
 
-        <label id="aluno">Sala</label>
+      <label id="aluno">Sala</label>
+      <input id="colege1" type="number" placeholder="Digite número da sua sala:">
 
-        <input id="colege" type="text" placeholder="Digite numero da sua sala:">
+      <label id="Idade">Idade</label>
+      <input id="colege2" type="number" placeholder="Digite sua idade">
 
-<label id="Idade">Idade</label>
-
-<input id="colege" type="number" placeholder="Digite sua idade">
-
-<p><a id="login" href="#">Ja estou cadastrado</a></p>
-
-<button id="submit">Enviar</button>
+      <p><a id="login" href="#">Já estou cadastrado</a></p>
+      <button id="submit">Enviar</button>
     </form>
-    
 
-</main>
-    
+    <ul id="alunoList"></ul> <!-- New list to display all students -->
+  </main>
+
+  <script src="./js.js"></script> <!-- Link to JavaScript file -->
 </body>
 </html>
