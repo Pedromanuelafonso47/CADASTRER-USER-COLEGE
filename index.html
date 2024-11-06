@@ -4,37 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Alunos</title>
-    <link rel="stylesheet" href="./tyle.css"> <!-- Corrected CSS link -->
+    <link rel="stylesheet" href="./tyle.css"> <!-- Link para o CSS -->
 </head>
 <body>
     <main class="cot">
-  <img id="imag" src="./Logo siga (branco).png" alt="Logo">
-  <button id="submit1">Apagar</button>
-  <button id="submit2">Editar</button>
-  <button id="listAll" >Listar Alunos</button> <!-- New button for listing -->
-  <div class="container">
-    <p>Nome: <span id="displayName"></p>
-      <p>Sala: <span id="displaySala"></p>
-        <p>Idade: <span id="displayIdade"></p>
+        <img id="imag" src="./Logo siga (branco).png" alt="Logo">
+        <button id="submit1"  onmouseenter="entrar()" onmouseout="sair()" >HOME</button>
+        <button id="submit2">TEACHER</button>
+        <button id="listAll">APLICAR</button> <!-- Novo botão para listar -->
+
+        <div class="container">
+            <p>Nome:Aqui vc deve preencher<br> com o seu nome Completo</p>
+            <p>Sala: Sala deve ser correta ou o seu cadastramento sera invalido</p>
+            <p>Idade: Idade conforme no<br> documento de identificação</p>
         </div>
-        
-          <form id="home">
+
+        <form id="home">
             <label id="nomedoaluno">Nome do Aluno</label>
-      <input id="colege" type="text" placeholder="Digite seu nome">
+            <input id="colege" type="text" placeholder="Digite seu nome">
 
-      <label id="aluno">Sala</label>
-      <input id="colege1" type="number" placeholder="Digite número da sua sala:">
+            <label id="aluno">Sala</label>
+            <input id="colege1" type="number" placeholder="Digite número da sua sala:">
 
-      <label id="Idade">Idade</label>
-      <input id="colege2" type="number" placeholder="Digite sua idade">
+            <label id="Idade">Idade</label>
+            <input id="colege2" type="number" placeholder="Digite sua idade">
 
-      <p><a id="login" href="#">Já estou cadastrado</a></p>
-      <button id="submit">Enviar</button>
-    </form>
+            <p><a id="login" href="#">Já estou cadastrado</a></p>
+            <button id="submit">Enviar</button>
+        </form>
 
-    <ul id="alunoList"></ul> <!-- New list to display all students -->
-  </main>
+        <ul id="alunoList"></ul> <!-- Lista para exibir os alunos -->
+    </main>
 
-  <script src="./js.js"></script> <!-- Link to JavaScript file -->
+    <script src="./js.js"></script> <!-- Link para o JavaScript -->
 </body>
 </html>
